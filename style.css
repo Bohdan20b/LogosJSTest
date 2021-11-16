@@ -1,0 +1,26 @@
+body {
+    background-color:#7ffff4
+}
+button {
+    padding: 15px 20px 15px 20px;
+   margin: 0px 20px 20px 20px;
+}
+h4{
+    padding-left: 40px;
+}
+.container {
+    position:absolute;
+    top: 10%;
+    left: 38%;
+}
+.div-buttons {
+    margin: 10px;
+}
+.container-num {
+    padding: 0px 0px 0px 100px;
+}
+
+#result-container{
+    position: relative;
+    left: 35%;
+}
