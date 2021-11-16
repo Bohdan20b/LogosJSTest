@@ -8,6 +8,7 @@ function calculatePlus(){
     let number2 = document.getElementById('number2').value;
     let sum = +number1 + +number2;
     let result = document.getElementById('result')
+    result.innerHTML = ''
     result.append(sum)
 }
 function calculateMinus(){
@@ -15,6 +16,7 @@ function calculateMinus(){
     let number2 = document.getElementById('number2').value;
     let sum = +number1 - +number2;
     let result = document.getElementById('result')
+    result.innerHTML = ''
     result.append(sum)
 }
 function calculateDivision(){
@@ -23,6 +25,7 @@ function calculateDivision(){
     if(number2 != 0){
         let sum = +number1 / +number2;
         let result = document.getElementById('result')
+        result.innerHTML = ''
         result.append(sum)
     }
     else{
@@ -34,5 +37,6 @@ function calculateMultiply(){
     let number2 = document.getElementById('number2').value;
     let sum = +number1 * +number2;
     let result = document.getElementById('result')
+    result.innerHTML = ''
     result.append(sum)
 }
